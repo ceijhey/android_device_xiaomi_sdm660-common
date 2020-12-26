@@ -113,7 +113,7 @@
         android:title="@string/thermal_profile_title">
 
         <org.lineageos.settings.device.preferences.SecureSettingListPreference
-            android:defaultValue="0"
+            android:defaultValue="16"
             android:dialogTitle="@string/thermal_dialogTitle"
             android:entries="@array/thermal_profiles"
             android:entryValues="@array/thermal_values"
