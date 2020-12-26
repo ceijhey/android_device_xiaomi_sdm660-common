@@ -30,14 +30,14 @@
         android:title="@string/cat_colormanagement">
 
         <org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference
-            android:defaultValue="255"
+            android:defaultValue="250"
             android:dependency="kcal_enabled"
             android:key="color_red"
             android:max="255"
             android:title="@string/color_red" />
 
         <org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference
-            android:defaultValue="255"
+            android:defaultValue="250"
             android:dependency="kcal_enabled"
             android:key="color_green"
             android:max="255"
@@ -64,21 +64,21 @@
         android:title="@string/cat_calibration">
 
         <org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference
-            android:defaultValue="35"
+            android:defaultValue="60"
             android:dependency="kcal_enabled"
             android:key="saturation"
             android:max="158"
             android:title="@string/saturation" />
 
         <org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference
-            android:defaultValue="127"
+            android:defaultValue="117"
             android:dependency="kcal_enabled"
             android:key="value"
             android:max="255"
             android:title="@string/value" />
 
         <org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference
-            android:defaultValue="127"
+            android:defaultValue="136"
             android:dependency="kcal_enabled"
             android:key="contrast"
             android:max="255"
